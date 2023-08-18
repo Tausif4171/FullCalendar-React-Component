@@ -1,0 +1,192 @@
+.fc .fc-toolbar-title {
+  color: #121212;
+  font-size: 24px;
+
+}
+
+/* today button */
+.fc .fc-button-primary:disabled {
+  background-color:
+    #ECECEC;
+  color:
+    #121212;
+  font-size: 14px;
+  border-radius: 8px;
+  padding:
+    10px, 16px, 10px, 16px;
+  width: 77px;
+  height: 40px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.fc .fc-button:disabled {
+  opacity: 1;
+}
+
+/* buttons for slots */
+.fc .fc-button-primary {
+  background-color: white;
+  border-color: white;
+  color: #121212;
+  font-weight: 500;
+}
+
+/* week button */
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+  background-color: white;
+  border-color: white;
+  color: #121212;
+  font-weight: 500;
+}
+
+/* container */
+.fc-direction-ltr {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100%; */
+  direction: ltr;
+  text-align: left;
+}
+
+/* .fc-direction-ltr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 12px;
+  margin-left: 12px;
+} */
+
+/* .fc .fc-toolbar.fc-header-toolbar {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
+/* .fc .fc-view-harness-active > .fc-view {
+  overflow-y: hidden;
+  margin: 20px;
+  inset: 0px;
+  position: absolute;
+} */
+
+/* arrow */
+.fc .fc-button .fc-icon {
+  color:
+    #121212
+}
+
+.fc .fc-button-primary {
+  text-transform: capitalize;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  border: none
+}
+
+/* th table*/
+.fc .fc-col-header-cell-cushion {
+  background-color: #121212;
+  color: #ECECEC;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* all day */
+.fc .fc-timegrid-axis-cushion {
+  /* font-size: 14px;
+  text-transform: capitalize; */
+  color: #7f7e7e;
+}
+
+.fc .fc-timegrid-slot-label-cushion {
+  color: #7f7e7e;
+}
+
+.fc .fc-highlight {
+  background: var(--fc-highlight-color);
+}
+
+/* selector week */
+.fc-v-event {
+  background-color: #FFE0B8;
+  border: none;
+  display: block;
+}
+
+.fc-v-event .fc-event-main {
+  color: brown;
+  height: 100%;
+  /* padding-top: 6px;
+  padding-bottom: 6px; */
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 16px;
+}
+
+/* by default today date color */
+.fc .fc-daygrid-day.fc-day-today {
+  background-color:
+    white;
+}
+
+.fc .fc-timegrid-slot {
+  background: white;
+  border-bottom: 0px;
+  height: 1.5em;
+}
+
+/* grid */
+/* .fc .fc-timegrid-axis-cushion, .fc .fc-timegrid-slot-label-cushion {
+  padding: 40px 4px;
+} */
+
+.fc-timegrid-event-short .fc-event-time::after {
+  content: "  ";
+}
+
+.fc .fc-timegrid-slot {
+  padding: 20px;
+  background: white;
+  border-bottom: 0px;
+  height: 1.5em;
+}
+
+.fc-direction-ltr .fc-timegrid-slot-label-frame {
+  text-align: center;
+}
+
+.fc .fc-timegrid-axis-frame {
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* padding: 15px; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.fc .fc-timegrid-axis-cushion {
+  display: flex;
+  color: #7f7e7e;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
+
+/* .fc .fc-scrollgrid-section, .fc .fc-scrollgrid-section table, .fc .fc-scrollgrid-section > td {
+  height: 1px;
+}
+
+.fc .fc-timegrid-divider {
+  padding: 0px 0px 2px;
+} */
